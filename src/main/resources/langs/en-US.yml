@@ -1,0 +1,25 @@
+# =========================================
+# TelePortais - Language EN_US
+# =========================================
+
+prefix: "&8[&bTelePortals&8] "
+
+no-permission: "&cYou do not have permission to do this."
+only-player: "&cThis command can only be used by players."
+
+portal:
+  create: "&aPortal &e{portal} &acreated successfully."
+  remove: "&cPortal &e{portal} &cremoved successfully."
+  not-found: "&cPortal &e{portal} &cnot found."
+  already-exists: "&cA portal with this name already exists."
+  enter: "&7You entered the portal &b{portal}&7."
+  cancel: "&cTeleport cancelled."
+  error: "&cError while using the portal."
+
+teleport:
+  delay: "&7Teleporting in &e{seconds}&7 seconds..."
+  success: "&aTeleported successfully."
+
+command:
+  reload: "&aTelePortals reloaded."
+  usage: "&eUsage: /teleportais <create|remove|reload|list>"
