@@ -1,0 +1,26 @@
+# =========================================
+# TelePortais - Mensagens gerais
+# =========================================
+
+no-permission: "&cVocê não tem permissão para isso."
+
+only-player: "&cEste comando só pode ser usado por jogadores."
+
+reload-success: "&aConfigurações recarregadas com sucesso."
+
+portal:
+  created: "&aPortal &e{portal} &acriado com sucesso."
+  removed: "&cPortal &e{portal} &cremovido."
+  not-found: "&cPortal &e{portal} &cnão encontrado."
+  already-exists: "&cJá existe um portal com esse nome."
+  enter: "&7Entrando no portal &b{portal}&7..."
+  cancelled: "&cTeleport cancelado."
+  error: "&cErro ao teleportar."
+
+command:
+  usage: "&eUse: /teleportais <create|remove|reload|list>"
+  invalid: "&cComando inválido."
+
+teleport:
+  delayed: "&7Teleportando em &e{seconds}&7 segundos..."
+  success: "&aTeleportado com sucesso."
