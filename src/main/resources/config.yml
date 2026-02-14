@@ -1,0 +1,47 @@
+# =========================================
+# TelePortais - Configuração principal
+# Plugin de portais avançados
+# =========================================
+
+# Idioma padrão do plugin
+# Opções: pt-BR, en_US, es_ESA
+language: pt-BR
+
+# Prefixo do plugin nas mensagens
+prefix: "&8[&bTelePortais&8] "
+
+# Ativar mensagens de debug no console
+debug: false
+
+# Configurações gerais dos portais
+portals:
+  # Distância máxima para detectar o portal
+  activation-radius: 1.5
+
+  # Delay antes de teleportar (em segundos)
+  teleport-delay: 0
+
+  # Cancelar teleport se o player se mover
+  cancel-on-move: true
+
+  # Permitir teleport em combate
+  allow-in-combat: true
+
+# Integração com outros plugins
+integration:
+  multiverse:
+    enabled: true
+    # Comando usado para teleportar entre mundos
+    command: "mvtp {world}"
+
+  warps:
+    enabled: true
+    # Comando de warp (Essentials, CMI, etc)
+    command: "warp {warp}"
+
+# Sons ao usar portal
+sounds:
+  enabled: true
+  sound: ENTITY_ENDERMAN_TELEPORT
+  volume: 1.0
+  pitch: 1.0
